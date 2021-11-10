@@ -37,7 +37,6 @@ namespace FormUsuario
             productosToolStripMenuItem.Visible = login.UsuarioAutenticado.PuedeVerProductos;
             reporteDeProductosToolStripMenuItem.Visible = login.UsuarioAutenticado.PuedeVerReportesdeProductos;
             reporteDeVentasToolStripMenuItem.Visible = login.UsuarioAutenticado.PuedeVerReportesdeVentas;
-
         }
 
         private void archivoToolStripMenuItem_Click(object sender, EventArgs e)
